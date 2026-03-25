@@ -1,0 +1,36 @@
+Q1: What is difference between a dictionary and a set in Python? When would you use each?
+ A: The main differnce between a dictionary and a set is how they store data.
+    A dictionary is like a mini-database. It stores data in key-value pairs, where each key is a unique and maps to a specific value.
+
+    A set on the other hand is just a collection of unique elements withous any associated values.
+    It's perfect when we want to store things without duplicates or perform a set operations like:
+        - Union
+        - Intersection and
+        - Difference
+
+    We use Dictionary when we need to look up data based on a specific identifier.
+        For example:
+        If we have a phone book and we want someone’s number, we don’t need to search the whole list
+        we can look it up directly by their name (the key).
+
+    In the other hand we use a Set when we want to store unique items and dont care about order.
+
+
+
+Q2: What is the purpose of the raise keywoard in Python ? 
+ A: We use raise when we want to signal an error, stop execution or pass the exception up for higher-level handling.
+
+
+Q3: What is difference between .map and list comprehsions ?
+ A: Both of those are ways to apply a function to every item on a list or other iterable.
+    But they work a bit differently and have slightly different use cases.
+
+    List comprehsions are more Pythonic and readable, we write the transformation directly inside square brackets and the structure is something like this:
+        
+        variable_name = [
+            #Data transformation
+            #Loop
+            #Filter
+        ]
+
+    Map() applies a function to every item in an iterable, it returns a map object, which we usually convert to a list. We cannot include conditions directly but we need to use filter() for that.
