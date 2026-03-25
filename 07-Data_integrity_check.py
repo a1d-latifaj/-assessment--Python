@@ -37,7 +37,6 @@ for employee in employees:
             "reasons": reasons
         })
 
-
 for inv in invalid_records:
     print(f"RECORD: {inv['employee']}")
     print(f"REASON: {inv['reasons'][0]}\n")

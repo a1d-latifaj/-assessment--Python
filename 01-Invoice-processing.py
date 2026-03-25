@@ -32,3 +32,4 @@ print("Valid Invoices:")
 for inv in valid_invoices:
     print(f"  {inv['invoice_id']}: amount: {inv['amount']}, Status: {inv['status']}")
 print(f"Total Amount: {total}")
+

@@ -9,9 +9,8 @@
             *empty file
 """
 
-
 try:
-    with open(r"./0-theoretical-questsions.txt") as f:
+    with open(r"C:\Users\a1d-latifaj\OneDrive\Desktop\assessment\0-theoretical-questions.txt") as f:
         total_lines = f.readlines()
         if len(total_lines) == 0:
             print(f"File is empty")
